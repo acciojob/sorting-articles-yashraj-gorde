@@ -28,5 +28,5 @@ const sortedBands = bands.sort((a, b) => {
 });
 
 // Display sorted list in <ul>
-document.querySelector('#band').innerHTML =
+document.querySelector('#bands').innerHTML =
   sortedBands.map(band => `<li>${band}</li>`).join('');
